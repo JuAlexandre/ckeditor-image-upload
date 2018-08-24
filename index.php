@@ -14,10 +14,10 @@
                     <h1 class="text-center">Add Blog Post</h1>
                     <div class="form-group">
                         <label for="title">Title</label>
-                        <input type="text" name="title" class="form-control" >
+                        <input type="text" name="title" id="title" class="form-control" >
                     </div>
                     <div class="form-group" style="position: relative;">
-                        <label for="post">Body</label>
+                        <label for="body">Body</label>
                         <textarea name="body" id="body" class="form-control" cols="30" rows="5"></textarea>
                     </div>
                     <div class="form-group">
@@ -33,8 +33,7 @@
     <!-- Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- CKEditor -->
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/ckeditor/4.8.0/ckeditor.js"></script>-->
-    <script src="ckeditor/ckeditor.js"></script>
+    <script src="https://cdn.ckeditor.com/4.10.0/standard/ckeditor.js"></script>
     <!-- Custom scripts -->
     <script src="scripts.js"></script>
 </body>
