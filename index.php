@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Uploading images in CKEditor</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div class="container">
@@ -35,6 +35,6 @@
     <!-- CKEditor -->
     <script src="https://cdn.ckeditor.com/4.10.0/standard/ckeditor.js"></script>
     <!-- Custom scripts -->
-    <script src="scripts.js"></script>
+    <script src="js/app.js"></script>
 </body>
 </html>
